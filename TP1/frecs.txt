@@ -1,0 +1,13 @@
+Las frecuencias de muestreo de los registros son las siguientes:
+
+- ecg.txt: 250 Hz
+
+- eeg.txt: 250 Hz
+
+- respiracion.txt: 250 Hz
+
+- presion.txt: 250 Hz
+
+- peatc.txt: 10 Khz
+
+- emg.txt: 1.3 KHz
