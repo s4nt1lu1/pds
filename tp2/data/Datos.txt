@@ -1,0 +1,11 @@
+mic*.wav señal de voz grabada con un microfono de proximidad
+lar*.wav señal de un laringografo
+Se pueden cargar con wavread
+Frecuencias de muestreo: 48.000 Hz
+
+ref*.f0 pitch de referencia, calculado por el metodo rapt aplicado a la señal del laringografo filtrada
+Se carga con load
+Tiene 4 columnas, la primera es el valor de pitch de referencia, la segunda la probabilidad de existencia de pitch (0: frame con fonema sordo, 1: frame con fonema sonoro). Las otras dos no importa, son valores calculados por el método de deteccion de pitch usado.
+
+Para la referencia de pitch se usó un ventaneo con ventanas de 32 milisegundos y con desplazamiento de 10 milisegundos. La primer ventana empieza media longitud de ventana adelantada (16 milisegundos).
+
